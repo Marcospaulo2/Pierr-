@@ -1,0 +1,443 @@
+/**
+  AUTOR: PAULO VICTOR
+  DATA: 25/08/2020
+  PROJETO: FESTA CULTURAL DE NAZARÉ
+  OBJETIVO: ESTILO PAGE HOME
+*/
+
+@font-face{
+  font-family: 'Beauty and the Beast';
+  src: url('../fonts/Beauty\ and\ the\ Beast\ Sample.ttf');
+}
+@font-face{
+  font-family: 'xilosa';
+  src: url('../fonts/xilosa_.ttf');
+}
+/*NAVBAR*/
+html,body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('../img/fundo.jpg');
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header{
+  text-align: center;
+  background-color: #ffffff;
+  padding:60px;
+  bottom: 50px;
+  left: 50PX;
+  text-align: justify center;
+  position:relative;
+  border-radius: 16PX;
+  width: 800px;
+  
+  z-index: 99;
+}
+#navbarSupportedContent{
+  position: relative;
+ 
+}
+.navbar-brand{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgb(255, 255, 255) !important;
+}
+#menu{
+  margin: auto;
+  font-size: 18px;
+  opacity: 0;
+  height: 0;
+  position: absolute;
+  /* text-decoration-line: underline; */
+  
+}
+h2{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-top: 0;
+}
+#menu li a{
+  transition: 500ms linear; 
+  color: rgb(255, 255, 255);
+  position: absolute;
+  cursor: pointer;
+  
+}
+#menu li a{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.navbar-toggler{
+  background-color: white;
+}
+/***/
+/*IMG FITAS*/
+
+
+/***/
+/*IMG INFORMATIONS*/
+.col-img-logos .row img{
+  width: 100%;
+}
+.col-img-logos .row .col-md-3:first-child , .col-img-logos .row .col-md-3:last-child{
+  text-align: center;
+  position: relative;
+}
+.col-img-logos .row .col-md-3:last-child{
+  position: relative;
+}
+.col-img-logos .row .col-md-3:first-child img{
+  /* margin-top: 120px; */
+  width: 100%;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.col-img-logos .row .col-md-3:last-child img{
+  /* margin-top: 100px; */
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#img-logo img{
+  margin-top: -80px;
+  width: 90%;
+  margin-left: 150px;
+  align-items: center;
+}
+/***/
+/*DRIVE IN*/
+.drive-img{
+  padding: 40px 2%;
+  text-align: center;
+}
+.drive-img img{
+  width: 40%;
+}
+/***/
+body{
+  position: relative;
+}
+footer{
+  position: absolute;
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0 20%;
+  background-color: #1c6aac;
+  display: flex;
+  align-items: center;
+  border-top: 15px solid #F5821F;
+  display: none;
+}
+footer p{
+  font-size: 10px;
+  font-weight: bold;
+}
+footer img{
+  width: 50%
+}
+footer .container{
+  margin: 0 auto;
+  background-color: white;
+  top: -45px;
+  border-radius: 20px;
+  height: auto;
+  position: relative;
+  padding: 40px 10px;
+  border-top: 12px solid #F5821F;
+}
+footer .container .row{
+  text-align: center;
+  
+}
+.row{
+  margin-bottom: 100px;
+  align-items: center;
+  left: 200px;
+  
+  
+}
+#comercializacao{
+  width: 30%;
+}
+#realizacao{
+  width: 60%;
+}
+#patrocinador img{
+  width: 100%;
+}
+#rodape img{
+  width: 100%;
+}
+#rodape{
+  width: 95%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+
+}
+
+#img-middle{
+  width: 40%;
+  display: none;
+}
+#img-last{
+  width: 80%;
+  display: none;
+}
+/* #rodape1{
+  position:relative;
+  bottom: 0px;
+  display: block;
+} */
+@media screen and (max-width:767px){
+  .navbar-brand{
+    font-size: 8px;
+  }
+  .img-fitas img{
+      width: 100%;
+  }
+  #img-middle{
+    margin: 30px 0 !important;
+    display: inline-block;
+  }
+  #img-last{
+    display: inline-block;
+  }
+  #env-data{
+    display: none;
+  }
+  .col-img-logos .row .col-md-3:first-child{
+    background-color: #1c6aac;
+    text-align: center;    
+    margin: 100px 0;
+    display: none;
+  }
+  .col-img-logos .row .col-md-3:first-child img{
+    /* margin-top: 120px; */
+    width: 60%;
+  }
+  .col-img-logos .row .col-md-3:last-child img{
+    /* margin-top: 120px; */
+    width: 40%;
+  }
+  #img-logo img{
+    margin: 20px 0;
+  }
+  .drive-img img{
+    margin-top: 10px;
+    width: 70%;
+  }
+  #patrocinador img{
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  footer img{
+    width: 40%;
+    margin-bottom: 40px;
+  }
+  #comercializacao{
+    width: 20%;
+    margin-bottom: 40px;
+  }
+  #realizacao{
+    width: 80%;
+  }
+  footer p{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  footer{
+    display: block;
+  }
+  #rodape{
+    display: none;
+    opacity: 0;
+    
+  }
+  
+}
+@media only screen and (max-device-width: 900px){
+  #navbarSupportedContent{
+    /* position: initial; */
+    position: none;
+    
+  }
+  #menu{
+    position: none;
+    opacity: 1;
+    
+  }
+  .header{
+    opacity: 0;
+    height: 0;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+  }
+  #rodape{
+    opacity: 0;
+    height: 0;
+  }
+}
+@media only screen and (max-device-width: 390px){
+  #navbarSupportedContent{
+    /* position: initial; */
+    position: none;
+    
+  }
+  #menu{
+    position: none;
+    opacity: 1;
+    
+  }
+  .header{
+    opacity: 0;
+    height: 0;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+  }
+  #rodape{
+    opacity: 0;
+    height: 0;
+  }
+}
+.animated-icon1{
+  display:flex;
+  width: 30px;
+  border: none;
+  height: 20px;
+  position: relative;
+  margin: 2px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  
+}
+
+.animated-icon1 span {
+  display:flex;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  background: none;
+  opacity: 1;
+  left: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+  background: #080808;
+}
+
+.animated-icon1 span:nth-child(1) {
+ top: 0px;
+ background: rgba(252, 82, 4, 0.705);
+}
+
+.animated-icon1 span:nth-child(2) {
+  top: 10px;
+  background: #1316db;
+}
+
+.animated-icon1 span:nth-child(3) {
+  top: 20px;
+  background: #f7550a;
+}
+
+.animated-icon1.open span:nth-child(1) {
+  top: 11px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  
+}
+
+.animated-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+  top: 11px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+
+
+.animated-icon3 span:nth-child(2) {
+  top: 10px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(3) {
+  top: 20px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.animated-icon3.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 0px;
+  left: 8px;
+}
+
+.animated-icon3.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.animated-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 21px;
+  left: 8px;
+}

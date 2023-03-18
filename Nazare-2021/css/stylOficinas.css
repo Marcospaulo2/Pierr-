@@ -1,0 +1,152 @@
+/**
+  AUTOR: PAULO VICTOR
+  DATA: 01/09/2020
+  PROJETO: FESTA CULTURAL DE NAZARÉ
+  OBJETIVO: ESTILO PAGE OFICINAS
+*/
+.img-oficina img{
+    width: 50%;
+}
+.img-oficina .palestrante img{
+    margin-top: 40px;
+    width: 80%;
+}
+.overlap-video{
+    padding: 0;
+}
+.container-oficinas{
+    padding: 100px 4% 0 4%;
+}
+.container-oficinas p{
+    text-align: justify;
+}
+.palestrante{
+    margin-top: 40px;
+}
+.dados-palestrante h2{
+    font-family: 'xilosa';
+    text-transform: uppercase;
+}
+.dados-palestrante p:not(:last-child){
+    padding: 10px 0 30px 0;
+    border-bottom: 2px solid white;
+}
+a.btn-escreva-se img{
+    margin-top: 10px !important;
+    width: 60% !important;
+    margin-bottom: 20px;
+}
+.palestrante{
+    height: 100%;
+}
+.container-img-palestrante{
+    display: block;
+    padding: 5px;
+    position: relative;
+}
+.img-palestrante{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-size: cover;
+}
+.overlap-img-palestrante{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    display: none;
+}
+.video-chamada{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #f5821f;
+}
+.video-chamada img{
+    margin: 0 !important;
+    width: 64px !important;
+}
+.container-contato hr{
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    width: 200px;
+    margin-left: 0px;
+}
+.container-contato .redes-sociais a img{
+    width: 32px;
+}
+.imprensa{
+    text-transform: uppercase;
+}
+.imprensa h5{
+    font-family: 'xilosa';
+    margin-bottom: 20px;
+}
+.download-file button{
+    background-color: transparent;
+    border: 0;
+    margin-bottom: 10px;
+}
+.download-file button:focus{
+    outline: 0;
+}
+.download-file a img{
+    width: 300px;
+}
+.galeria-fotos .galeria-programacao .col-md-3{
+    border: 4px solid #07223A;
+}
+.galeria-fotos .galeria-programacao h5{
+    margin-left: 4%;
+    text-transform: uppercase;
+    font-family: 'xilosa';
+}
+#exampleModalLongTitle{
+    font-family: 'xilosa';
+    text-transform: uppercase;
+}
+.video-nazare iframe{
+    width: 100%;
+    height: 400px;
+}
+.modal-content input:focus{
+    border-color: #F5821F;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(245, 130, 31, 0.6);
+    
+}
+@media screen and (max-width: 992px){
+    .img-oficina img{
+        margin-top: 40px;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 992px){
+    .img-oficina img{
+        margin-top: 40px;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 768px){
+    .img-palestrante{
+        width: 300px;
+        height: 300px;
+    }
+    .overlap-img-palestrante{
+        width: 300px;
+        height: 300px;
+    }
+    .img-oficina img{
+        width: 80%;
+    }
+    .dados-palestrante h2{
+        margin-top: 40px;
+    }
+}

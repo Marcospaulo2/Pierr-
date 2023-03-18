@@ -1,0 +1,78 @@
+/**
+  AUTOR: PAULO VICTOR
+  DATA: 29/08/2020
+  PROJETO: FESTA CULTURAL DE NAZARÉ
+  OBJETIVO: ESTILO PAGE PROGRAMAÇÃO
+*/
+body{
+    background-color: #07223a;
+    background-image: none;
+}
+.programacao-nazare{
+    margin-top: 20px;
+}
+.btn-ao-vivo img{
+    width: 50%;
+}
+.programacao-nazare h3{
+    font-size: 40px;
+    color:white
+}
+.calendar h4 img{
+    width: 50px;
+    margin-right: 20px;
+}
+.table-programacao{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.table-programacao table{
+    margin: 0 auto;
+}
+.table-programacao table th:not(:last-child){
+    padding-right: 40px;
+    font-size: 18px;
+}
+.galeria-programacao .row{
+    width: 100%;
+    margin: 0 auto;
+}
+.galeria-programacao .col-md-3{
+    margin: 0;
+    padding: 0;
+    border: 4px solid white;
+}
+
+.galeria-programacao .col-md-3 img{
+    width: 100%;
+}
+.container-table{
+    margin-top: -300px;
+}
+.galeria-programacao{
+    margin-bottom: 0px;
+}
+
+th{
+    vertical-align: top;  
+    /* padding-left: 10px; */
+    text-align: left;
+}
+th p{
+    font-weight: 200;    
+    text-align: justify;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 766px){
+    .table-programacao{
+        border: 0 !important;
+    }
+    /* .container-table{
+        margin-top: -200px;
+    } */
+    .w-100{
+        width: 100% !important;
+        text-align: center !important;
+    }
+}

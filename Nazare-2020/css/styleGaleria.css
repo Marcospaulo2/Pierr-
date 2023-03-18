@@ -1,0 +1,122 @@
+.xilosa{
+    font-family: 'xilosa';
+}
+.container-galeria h3{
+    padding-left: 4%;
+    margin-bottom: 4px;
+}
+.img-galeria{
+    border: 4px solid #07223A;
+}
+.img-galeria{
+    height: 150px !important;
+}
+.img-galeria img{
+    width: 100%;
+}
+.slick-dots li{
+    /* background-color: aliceblue; */
+}
+.slick-dots li button::before{
+    color:white !important
+}
+.slick-dots li.slick-active button:before
+{
+    /* opacity: .75 !important; */
+    color: white !important;
+}
+.container-single-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    display: none;
+}
+.container-single-img{        
+    width: 70%;    
+    height: 400px;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.img-single{    
+    width: 70%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.container-single-img button{
+    display: block;
+    margin: 0 auto;
+    background-color: #F5821F;
+    padding: .375rem .75rem;
+    border: 0;
+    color: white;
+    border-radius: .25rem;
+}
+.carregamento-page{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+}
+.container-img-carregamento{
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.container-img-carregamento img{
+    margin-bottom: 40px;
+}
+.bol-carregamento{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;    
+    border: 4px solid #dddd;
+    border-left: 4px solid #F5821F;
+    margin: 0 auto;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: rotate;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: rotate;
+    -ms-animation-duration: 1s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+}
+@-webkit-keyframes rotate{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes Rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+@-ms-keyframes Rotate {
+    from {-ms-transform: rotate(0deg);}
+    to {-ms-transform: rotate(360deg);}
+}
+@media screen and (max-width: 600px){
+    .img-single{    
+        width: 100%;        
+        margin-bottom: 20px;
+    }
+}
