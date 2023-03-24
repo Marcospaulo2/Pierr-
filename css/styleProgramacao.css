@@ -241,6 +241,20 @@ footer .container .row {
   text-align: center;
 
 }
+.colombina{
+  display: flex;
+  padding: 10px;
+  margin: 0px;
+  margin-left: -50px;
+  width: 100%;
+}
+.oficinas{
+  text-align: center;
+  border: 10px;
+  padding: 100px;
+  text-indent: 30px;
+
+}
 
 @media screen and (max-width:767px) {
   body {

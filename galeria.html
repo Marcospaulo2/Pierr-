@@ -1,23 +1,27 @@
+<!-- <?php
+require 'vendor/autoload.php';
+if (isset($_POST['nome'])) {
+    SendEmail::send($_POST['nome'], $_POST['email'], $_POST['celular'], $_POST['palestrante'], $_POST['cpf']);
+    // echo '<script>alert("ainda está pegando")</script>';
+} else {
+}
+?> -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="plugin/slick/slick.css">
-    <link rel="stylesheet" href="plugin/slick/slick-theme.css">
     <link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/styleSobre.css">
+    <!-- <link rel="stylesheet" href="css/imprensa.css"> -->
     <link rel="stylesheet" href="css/styleProgramacao.css">
-    <link rel="stylesheet" href="css/stylOficinas.css">
     <link rel="stylesheet" href="css/styleGaleria.css">
 
-    <link rel="stylesheet" href="plugin/slick/slick.css">
-    <link rel="stylesheet" href="plugin/slick/slick-theme.css">
 
-    <title>Galeria de fotos</title>
+
+    <title>Galeria</title>
 </head>
 
 <body>
@@ -28,169 +32,127 @@
             <div class="bol-carregamento"></div>
         </div>
     </div>
-    <header>
 
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-              <!-- Navbar brand -->
-      		<a class="navbar-brand" href="#">MINISTERIO DO TURISMO E ATACADÃO APRESENTAM:</a>
-      		<!-- Collapse button -->
-      		<button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
-      		  aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
-      		  <div class="animated-icon1"><span></span><span></span><span></span></div>
-      		</button>
-      		  <!-- Collapsible content -->
-      		<div class="collapse navbar-collapse" id="navbarSupportedContent20">
-      		  <!-- Links -->
-      		  <ul class="navbar-nav mr-auto" id="menu">
-      		    <li class="nav-item ">
-      		      <a class="nav-link" href="index.html">Home </a>
-      		    </li>
-      		    <li class="nav-item">
-      		      <a class="nav-link" href="sobre.html">Sobre</a>
-      		    </li>
-      		    <li class="nav-item">
-      		      <a class="nav-link" href="oficinas.html">Oficinas</a>
-      		    </li>
-      		    <li class="nav-item">
-      		        <a class="nav-link" href="programacao.html">Programação</a>
-      		    </li>
-      		    <li class="nav-item active">
-      		        <a class="nav-link text-black-50" href="galeria.html">galeria fotos <span class="sr-only">(current)</span></a>
-      		    </li>
-      		    <li class="nav-item">
-      		        <a class="nav-link" href="imprensa.html">Imprensa</a>
-      		    </li>
-      		    <li class="nav-item">
-      		        <a class="nav-link" href="contato.html">Contato</a>
-      		    </li>
-      		  </ul>
-      		    <!-- Links -->
-      		</div>
-      		<!-- Collapsible content -->
+    <!-- <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light"> -->
+
+            <!-- Navbar brand -->
+            <!-- <a class="navbar-brand" href="#">MINISTERIO DO TURISMO E ATACADÃO APRESENTAM:</a> -->
+
+            
+                <!-- Collapse button -->
+
+                <!-- Collapsible content -->
+                <!-- <div class=" collapse navbar-collapse" id="navbarSupportedContent20"> -->
+
+                    <!-- Links -->
+                    <!-- <ul class="navbar-nav mr-auto" id="menu">
+                        <li class="nav-item active   ">
+                            <a class="nav-link" href="programacao.html">PROGRAMAÇÃO</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="oficinas.html">INSCRIÇÕES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">GALERIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="imprensa.html">IMPRENSA</a>
+                        </li>
+                    </ul> -->
+
+                    <!-- Links -->
+                <!-- </div>
         </nav>
-      </div>
+    </div> -->
+
     </header>
 
-    <div class="container-oficinas">
-        <div class="programacao-nazare">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 style="font-family: Beauty and the Beast;">Galeria de Fotos</h3>
-                </div>
+    <div class="container text-center text-light">
+        <div class="row row-cols-1">
+            <div class="col">
+                <br>
+                <strong>
+                    <h1> Espetáculo “A Paixão de um Pierrô” abre audições em Marabá</h1>
+                </strong>
+                <img src="/img/pierro.jpeg" alt="">
+
             </div>
-            <br>
+            <div class="col">
+                <p>
+                    Vagas são para atores, dançarinos e artistas circenses. Seletivas acontecem nesta quinta e sexta no
+                    teatro do Cine Marrocos. Espetáculo é patrocinado pela Equatorial Energia. A realização é da Kadosh
+                    Produções, via Lei Federal de Incentivo à Cultura, do Ministério da Cultura
+                    <br>
+                    MARABÁ (PA) — Nesta quinta (23) e sexta-feira (24), das 17h às 21h, a produção do espetáculo “A
+                    Paixão de um Pierrô — Nas lendas de uma paixão” realiza audições para atores, atrizes, dançarinos e
+                    artistas circenses no teatro do Centro Cultural Cine Marrocos, situado na Travessa Lauro Sodré,
+                    Número 228, Velha Marabá.
+                    <br>
+                    Os requisitos para participar da seletiva, na condição de ator, atriz ou dançarino, são: experiência
+                    em atuação, canto e dança. Já para os artistas circenses, as exigências são: experiência em tecido
+                    aéreo, malabares, pirofagia e palhaçaria. Para todos, a idade é de 18 a 30 anos.
+                    <br>
+                    Além disso, a produção está à procura de candidatos que tenham disponibilidade para ensaios na
+                    temporada março, abril e maio, pois o espetáculo será levado para outros municípios da região após a
+                    estreia em Marabá, a exemplo de São João do Araguaia, Dom Eliseu, Curionópolis, Tucuruí e
+                    Parauapebas.
+                    <br>
+                    As inscrições para participar da seleção de elenco estão disponíveis por meio de formulário Google;
+                    link: <a
+                        href=" https://docs.google.com/forms/d/e/1FAIpQLSdMMnhFRX5dXeZzdkx2X0LDPqCPvn_oH29hDumLOIsxHx55Qw/viewform."
+                        target="_blank" rel="noopener noreferrer"> Clique aqui para se inscrever!!</a>
+                    O espetáculo, que contempla tanto oficina de teatro quanto apresentações culturais, é patrocinado
+                    pela Equatorial Energia. A realização é da Kadosh Produções, via Lei Federal de Incentivo à Cultura,
+                    do Ministério da Cultura.
+                </p>
+            </div>
+            <div class="col">
+                <img src="/img/colombina.jpeg" alt="">
+            </div>
+            <div class="col">
+                <p>
+                    <strong>SAIBA MAIS </strong>
+                    <br>
+                    Com a proposta de ser um espetáculo interativo, lúdico e mágico, “A Paixão de um Pierrô — Nas lendas
+                    de uma paixão” narra a batalha entre as tradições e a modernidade, o folclore e a tecnologia,
+                    enquanto mergulha nas nuances de uma paixão que tem o personagem homônimo como o protagonista, e que
+                    há séculos inspira a arte em todo o mundo.
+                    <br>
+                    A narrativa foi construída a partir do gênero espetáculo musical cabaré, e da comédia Dell’arte,
+                    pois conta a história de forma musicada, melodiosa, dramática, cadenciada, alegre e divertida, no
+                    estilo pantomina e mimicas. Isto é, a representação através de gestos.
+                    <br>
+                    Com caráter triste, sofredor e ingênuo, Pierrô é um personagem cantor de um velho cabaré que herdou
+                    dos avós circenses, um antigo circo fracassado, onde canta e expressa, através de velhos e novos
+                    sucessos populares musicais e do cancioneiro popular paraense, seus fracassos, seu desamor por uma
+                    Colombina bailarina que fugiu do circo com o trapezista Alerquino, mas retorna apaixonada ao
+                    reencontro do Pierrô.
+                    <br>
+                    A encenação é costurada com números de circo e dança, com participação de bailarinos e artistas
+                    circenses e um coro de vocalistas. Todo esse destino é alterado quando o fracassado circo pega fogo,
+                    e dos céus através de enormes balões de festa a gás, surge “La Lune”, um palhaço futurista, alegre e
+                    esperto, com uma visão à frente de seu tempo, que chega para salvar o Pierrô triste e apaixonado.
+                    <br>
+                    Porém, em meio a tantas ideias para retomar o circo, como de uma caixa mágica contar as lendas do
+                    folclore paraense, surge Lord Machine, um robô que pretende suplantar as tradições culturais pela
+                    modernidade e a tecnologia, tendo como principal missão destruir a caixa de lendas produzida por
+                    Pierrô, Colombina e La Lune.
+                    <br>
+                    Passeando por números musicais e de Clow, o espetáculo tem o espectador como o terceiro personagem,
+                    através da sua participação e interações digitais, imagens, música, dança, circo, que são as tônicas
+                    desse espetáculo interativo, lúdico e mágico, numa encenação proposta para todas as idades.
+                    <br>
+                    O espetáculo “A Paixão de um Pierrô” é liderado pelo diretor e produtor cultural Olivio Rafael, que
+                    mantém atuação na região há quatro anos, com eventos de destacada relevância para a cena cultural
+                    paraense. A direção artística do espetáculo fica a cargo do diretor, ator, cantor e produtor
+                    cultural Bilé Ares, que também foi escalado para ministrar uma oficina de teatro gratuita.
+                </p>
+            </div>
         </div>
     </div>
 
-    <div class="container-single-container">
-        <div class="container-single-img">
-            <div class="img-single"></div>
-            <button class="btn-close-img">Fechar</button>
-        </div>
 
-
-    </div>
-
-    <div class="container-galeria">
-        <div class="">
-            <h3 class="text-white xilosa">oficina de gastronomia</h3>
-            <div class="imgs-galeria">
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img1.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img2.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img3.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img4.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img5.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img6.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img7.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img9.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img10.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img11.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img12.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img13.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img14.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/gastronomia/img8.JPG" alt="" srcset=""></div>
-            </div>
-        </div>
-        <div class="">
-            <h3 class="text-white xilosa">oficina de artesanato</h3>
-            <div class="imgs-galeria">
-                <div class="img-galeria"><img src="img/galeria/artesanatos/img1.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/artesanatos/img2.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/artesanatos/img3.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/artesanatos/img4.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/artesanatos/img5.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/artesanatos/img6.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/artesanatos/img7.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/artesanatos/img8.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/artesanatos/img9.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/artesanatos/img10.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/artesanatos/img11.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/artesanatos/img12.JPG" alt="" srcset=""></div>
-            </div>
-        </div>
-        <div class="">
-            <h3 class="text-white xilosa">Apresentações</h3>
-            <div class="imgs-galeria">
-                <div class="img-galeria"><img src="img/galeria/apresentacoes/img1.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/apresentacoes/img2.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/apresentacoes/img3.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/apresentacoes/img4.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/apresentacoes/img5.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/apresentacoes/img6.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/apresentacoes/img7.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/apresentacoes/img8.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/apresentacoes/img9.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/apresentacoes/img10.JPG" alt="" srcset=""></div>
-                <div class="img-galeria"><img src="img/galeria/apresentacoes/im11.JPG" alt="" srcset=""></div>
-            </div>
-        </div>
-    </div>
-
-
-    <br>
-    <br>
-    <br>
-    <div id="rodape1" class="rodape-desktop">
-        <img src="img/SECULT_horz_preferencial.png" alt="">
-    </div>
-    <footer>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <div id="patrocinador" class="row">
-                        <div class="col-12">
-                            <img src="img/LOGOS/LOGO - lei de incentivo a cultura.png" alt="" srcset="">
-
-                            <p>PATROCINADOR:</p>
-                            <img src="img/LOGOS/LOGO - Atacadao.png" alt="" srcset="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <p>PRODUÇÃO:</p>
-                    <img src="img/LOGOS/LOGO - OMF.png" alt="" srcset="">
-                </div>
-                <div class="col-md-2">
-                    <p>APOIO</p>
-                    <img id="comercializacao" src="img/LOGOS/Parlare 2.png" alt="" srcset="">
-                    <img id="realizacao" src="img/LOGOS/LOGOS_APOIO.png" alt="" srcset="">
-                  </div>
-                <div class="col-md-6">
-                    <p>REALIZAÇÃO:</p>
-                    <img id="realizacao" src="img/LOGOS/Logo-Secretaria-Especial-da-Cultura-500x248.png" alt=""
-                        srcset="">
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-    <script src="plugin/jquery/jquery.js"></script>
-    <script src="plugin/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="plugin/slick/slick.min.js"></script>
-    <script src="js/functions.js"></script>
 </body>
-
-</html>
