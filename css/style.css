@@ -282,6 +282,7 @@ footer .container .row{
     display: none;
     opacity: 0;
   }
+  
   .drive-img img{
     margin-top: 10px;
     width: 70%;
@@ -324,6 +325,7 @@ footer .container .row{
   body{
     width: 100vw;
     height: 100vh;
+    background-image: url(../img/Colimbinape.png);
   }
 }
 @media only screen and (max-device-width: 900px){
