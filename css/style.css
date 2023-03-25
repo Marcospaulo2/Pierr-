@@ -221,17 +221,18 @@ footer .container .row{
   left: 200px;
   
   
+  
 }
-#comercializacao{
-  width: 100%;
-  padding: 0px;
+#comercializacao img{
+  width:900px;
+  
 }
 #realizacao{
-  width: 60%;
+  width: 100%;
 }
 #patrocinador img{
   width: 100px;
- 
+  
 }
 #rodape img{
   width: 100%;
