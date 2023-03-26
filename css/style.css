@@ -321,6 +321,8 @@ footer .container .row{
   footer{
     display: block;
     opacity: 0.8;
+    margin-top: 300px;
+    position: absolute;
   }
   #rodape{
     display: none;
@@ -328,8 +330,13 @@ footer .container .row{
     
   }
   .cirque{
-    opacity: 0;
-    display: none;
+    width: 200px;
+    margin-top: 150px;
+    display: inline;
+    position: absolute;
+    margin-bottom: -60px;
+    border: none;
+   
   }
   .header{
     display: none;
@@ -338,7 +345,7 @@ footer .container .row{
   body{
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/Colimbinape.png);
+    
   }
 }
 @media only screen and (max-device-width: 900px){
@@ -359,7 +366,7 @@ footer .container .row{
   body{
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/Colimbinape.png);
+    
   }
   #rodape{
     opacity: 0;
@@ -370,8 +377,13 @@ footer .container .row{
     opacity: 0;
   }
   .cirque{
-    opacity: 0;
-    display: none;
+    width: 200px;
+    margin-top: 100px;
+    display: block;
+    position: absolute;
+    margin-bottom: -60px;
+    border: none;
+    
   }
 }
 @media only screen and (max-device-width: 390px){
@@ -392,7 +404,7 @@ footer .container .row{
   body{
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/Colimbinape.png);
+    
   }
   #rodape{
     opacity: 0;
@@ -403,8 +415,12 @@ footer .container .row{
     display: none;
   }
   .cirque{
-    opacity: 0;
-    display: none;
+    width: 200px;
+    margin-top: 150px;
+    display: inline;
+    position: fixed;
+    margin-bottom: -60px;
+    border: none;
   }
 }
 .animated-icon1{
