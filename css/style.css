@@ -35,7 +35,7 @@ body{
 }
 .backbutton{
   top: 10px;
-  left: 10px;
+  right: 250px;
   width: auto;
   position: absolute;
   color: #ac65fd;
@@ -321,7 +321,7 @@ footer .container .row{
   footer{
     display: block;
     opacity: 0.8;
-    margin-top: 300px;
+    margin-top: 350px;
     position: absolute;
   }
   #rodape{
@@ -331,7 +331,7 @@ footer .container .row{
   }
   .cirque{
     width: 200px;
-    margin-top: 150px;
+    margin-top: 100px;
     display: inline;
     position: absolute;
     margin-bottom: -60px;
@@ -346,6 +346,12 @@ footer .container .row{
     width: 100vw;
     height: 100vh;
     
+  }
+  .backbutton{
+    left: 320px;
+    position:absolute;
+    margin-top: -10px;
+    padding: 5px;
   }
 }
 @media only screen and (max-device-width: 900px){
@@ -376,14 +382,30 @@ footer .container .row{
     display: none;
     opacity: 0;
   }
+  footer{
+    display: block;
+    opacity: 0.8;
+    margin-top: 460px;
+    position: absolute;
+  }
+  #rodape{
+    display: none;
+    opacity: 0;
+    
+  }
   .cirque{
     width: 200px;
     margin-top: 100px;
-    display: block;
+    display: inline;
     position: absolute;
     margin-bottom: -60px;
     border: none;
-    
+  }
+  .backbutton{
+    left: 380px;
+    position:absolute;
+    margin-top: -10px;
+    padding: 5px;
   }
 }
 @media only screen and (max-device-width: 390px){
@@ -414,13 +436,30 @@ footer .container .row{
     opacity: 0;
     display: none;
   }
+  footer{
+    display: block;
+    opacity: 0.8;
+    margin-top: 350px;
+    position: absolute;
+  }
+  #rodape{
+    display: none;
+    opacity: 0;
+    
+  }
   .cirque{
     width: 200px;
-    margin-top: 150px;
+    margin-top: 100px;
     display: inline;
-    position: fixed;
+    position: absolute;
     margin-bottom: -60px;
     border: none;
+  }
+  .backbutton{
+    left: 320px;
+    position:absolute;
+    margin-top: -10px;
+    padding: 5px;
   }
 }
 .animated-icon1{
