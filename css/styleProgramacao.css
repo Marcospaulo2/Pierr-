@@ -40,6 +40,7 @@ body section .row {
   height: 300px;
   width: 100%;
   margin: 10px 0;
+  margin-top: 10px;
   transition: ease all 2.3s;
   perspective: 1200px;
   background-color: transparent;
@@ -225,7 +226,7 @@ footer {
   align-items: center;
   bottom: 10px;
   left: 95px;
-  padding-top: 50px;
+  padding-top: 150px;
   
 }
 
@@ -279,7 +280,14 @@ footer .container .row {
     height: 100vh;
     width: 100vw;
   }
-
+  footer{
+    bottom: -1000px;
+    
+    display: block;
+    opacity: 0.5;
+    margin-top: 350px;
+    position: relative;
+  }
 
 }
 
@@ -297,6 +305,13 @@ footer .container .row {
     height: 100vh;
     width: 100vw;
   }
+  footer{
+    
+    display: block;
+    opacity: 0.5;
+    margin-top: 480px;
+    position: relative;
+  }
 
 }
 
@@ -312,6 +327,13 @@ footer .container .row {
     height: 100%;
     height: 100vh;
     width: 100vw;
+  }
+  footer{
+    
+    display: block;
+    opacity: 0.5;
+    margin-top: 480px;
+    position: relative;
   }
 
 }
