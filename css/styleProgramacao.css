@@ -337,3 +337,12 @@ footer .container .row {
   }
 
 }
+@media only screen and (max-width:678px){
+  footer{
+    
+    display: block;
+    opacity: 0.5;
+    margin-top: 480px;
+    position: relative;
+  }
+}

@@ -51,6 +51,7 @@ body {
   text-align: center;
   margin-bottom: 150px;
   position: relative;
+  margin-top: -100px;
 }
 
 .card-footer {
@@ -62,24 +63,36 @@ body {
   footer{
     display: block;
     opacity: 0.8;
-    margin-top: 1090px;
+    margin-top: 1300px;
     position: absolute;
   }
+
+  
 }
 @media screen and (max-width:767px){
   footer{
     display: block;
     opacity: 0.8;
-    margin-top: 1090px;
+    margin-top: 1300px;
     position: absolute;
   }
+  
 }
 
 @media only screen and (max-device-width: 900px){
   footer{
     display: block;
     opacity: 0.8;
-    margin-top: 1090px;
+    margin-top: 1300px;
     position: absolute;
+  }
+  
+}
+@media only screen and (max-width:678px){
+  .card1 {
+    top: 100px;
+    padding: 40px;
+    
+   
   }
 }

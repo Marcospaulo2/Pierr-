@@ -58,9 +58,9 @@ body{
   z-index: 99;
 }
 .cirque{
-  position: absolute;
+  position: relative;
   width: 800px;
-  top: -100px;
+  margin-top:0px;
   
 }
 #test{
@@ -260,7 +260,7 @@ footer .container .row{
   bottom: 0px;
   display: block;
 } */
-@media screen and (max-width:767px){
+@media only screen and (max-width:678px){
   .navbar-brand{
     font-size: 8px;
   }
@@ -332,10 +332,10 @@ footer .container .row{
   }
   .cirque{
     width: 200px;
-    margin-top: 100px;
+    margin-top: 10px;
     display: inline;
     position: absolute;
-    margin-bottom: -60px;
+    
     border: none;
    
   }
@@ -354,7 +354,15 @@ footer .container .row{
     margin-top: -10px;
     padding: 5px;
   }
+  #menu{
+    position: none;
+    opacity: 1;
+    
+  }
 }
+/* @media screen and (max-device-width: 120px), screen and (min-device-width: 300px){
+  
+} */
 @media only screen and (max-device-width: 900px){
   #navbarSupportedContent{
     /* position: initial; */
@@ -409,7 +417,7 @@ footer .container .row{
     padding: 5px;
   }
 }
-@media only screen and (max-device-width: 390px){
+@media only screen and (max-device-width: 390px) {
   #navbarSupportedContent{
     /* position: initial; */
     position: none;
@@ -440,7 +448,7 @@ footer .container .row{
   footer{
     display: block;
     opacity: 0.8;
-    margin-top: 350px;
+    margin-top: 450px;
     position: absolute;
   }
   #rodape{
@@ -583,3 +591,4 @@ footer .container .row{
   top: 21px;
   left: 8px;
 }
+
